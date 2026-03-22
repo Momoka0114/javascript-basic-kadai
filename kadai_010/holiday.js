@@ -7,6 +7,7 @@ for (let i = 0 ; i <= 15 ; i += 1) {
 
 // while文の場合:要素数が17未満の場合holidaysの要素数分だけ取り出す
 let j = 0
-while (j < 15 , j++) {
-  console.log(holidays[j])
+while (j <= 15 ) {
+  j++;
+  console.log(holidays[j]);
 }
