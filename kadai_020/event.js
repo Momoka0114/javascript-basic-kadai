@@ -8,5 +8,6 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
 
   //取得した文字列にボタンをクリックしましたを出力する
-  console.log('ボタンをクリックしました')
+  console.log('ボタンをクリックしました');
+  text.textContent = 'ボタンをクリックしました';
 });
