@@ -5,9 +5,8 @@ for (let i = 0 ; i <= 15 ; i += 1) {
   console.log(holidays[i]);
 }
 
-// while文の場合:要素数が17未満の場合holidaysの要素数分だけ取り出す
-let j = 0
-while (j <= 15 ) {
-  j++;
-  console.log(holidays[j]);
+let j = 0;//jを0から始める
+while (j < 16 ) {//が16未満の（16は含まない）場合ループを繰り返す
+  console.log(holidays[j]);//初回holodays[0]なので正月が表示される
+    j++; //ここで1に1足される
 }
